@@ -40,7 +40,7 @@ Make sure to write the url without a trailing slash.
  
 */
 
-c::set('url', false);
+c::set('http://www.ikatcreative.com', false);
 
 
 /* 
