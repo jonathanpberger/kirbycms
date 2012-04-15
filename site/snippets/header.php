@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <?php echo css('assets/less/carousel.less') ?>
+  <?php echo css('assets/styles/carousel.css') ?>
 
   <?php echo js('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js') ?>
-  <?php echo js('assets/js/transition.js') ?>
-  <?php echo js('assets/js/carousel.js') ?>
+  <?php echo js('assets/js/bootstrap-transition.js') ?>
+  <?php echo js('assets/js/bootstrap-carousel.js') ?>
   
   <title><?php echo html($site->title()) ?> - <?php echo html($page->title()) ?></title>
   <meta charset="utf-8" />
