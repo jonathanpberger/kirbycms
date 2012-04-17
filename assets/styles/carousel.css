@@ -80,12 +80,14 @@
   filter: alpha(opacity=50);
   z-index: 50;
 }
+
 .carousel-control.right {
   left: auto;
   right: 5px;
 }
 .carousel-control:hover {
   color: #ffffff;
+  background: #000;
   text-decoration: none;
   opacity: 0.9;
   filter: alpha(opacity=90);

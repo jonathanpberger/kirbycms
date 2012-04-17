@@ -8,12 +8,12 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Lato', sans-serif;  
+  font-size: 14px;
   line-height: 26px;
   background: #fff;
-  color: #777;
-  width: 450px;
+  color: #333;
+  width: 725px;
   margin: 50px auto;
 }
 a {
@@ -26,23 +26,24 @@ a:active,
 a:visited {
   outline: 0px;
 }
+
 a:hover {
-  color: red;
+  background: #d8ff03;
 }
 img {
   outline: 0;
   border: 0;
 }
 h1 {
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 30px;
   color: #222;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 h2 {
   font-size: 28px;
   font-weight: normal;
-  color: red;
   margin-bottom: 21px;
 }
 h3 {
@@ -60,18 +61,22 @@ p {
 }
 nav {
   overflow: hidden;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   padding: 10px 0;
 }
 nav li {
   list-style: none;
+  text-transform: uppercase;
   margin-right: 20px;
-  font-weight: bold;
   float: left;
 }
+
+nav li a.hover {
+  background: #d8ff03;
+}
 nav li a.active {
-  color: red;
+  background: #d8ff03;
 }
 nav.submenu {
   border-top: none;
@@ -86,12 +91,12 @@ section.content {
 footer {
   padding-top: 20px;
   margin-top: 20px;
-  border-top: 1px solid red;
+  border-top: 1px solid #ccc;
   font-size: 13px;
   color: #222;
 }
 footer a {
-  color: red;
+  color: #d8ff03;
 }
 footer a:hover {
   color: #222;

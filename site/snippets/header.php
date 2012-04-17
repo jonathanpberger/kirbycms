@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Tinos:400,400italic|Maven+Pro' rel='stylesheet' type='text/css'>
+	
   <?php echo css('assets/styles/carousel.css') ?>
 
   <?php echo js('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js') ?>
@@ -24,5 +27,5 @@
 <body>
 
   <header>
-    <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>" width="115" height="41" alt="<?php echo h($site->title()) ?>" /></a></h1>
+    <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>" alt="<?php echo h($site->title()) ?>" /></a></h1>
   </header>
